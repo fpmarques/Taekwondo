@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&family=Permanent+Marker&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-brush: "Permanent Marker", cursive;
+}
+
+/* Custom blueprint hatched textures or vintage line art indicators */
+.hatch-pattern {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #000000,
+    #000000 1px,
+    transparent 1px,
+    transparent 10px
+  );
+}
+
+.hatch-pattern-light {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #d4d4d4,
+    #d4d4d4 1px,
+    transparent 1px,
+    transparent 8px
+  );
+}
+
+/* Perfect line layout details */
+.card-border-double {
+  border: 3px double #000000;
+}
+
