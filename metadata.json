@@ -1,6 +1,0 @@
-{
-  "name": "Curso de Taekwondo WT",
-  "description": "Estrutura técnica e cronograma de aprendizado de Taekwondo WT com checklist de progresso.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
